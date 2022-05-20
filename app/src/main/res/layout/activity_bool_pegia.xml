@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:layoutDirection="ltr" android:textDirection="ltr"
+    tools:context=".BoolPegiaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis00" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis01" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis02" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis03" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef00" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef01" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef02" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef03" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis10" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis11" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis12" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis13" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef10" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef11" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef12" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef13" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis20" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis21" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis22" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis23" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef20" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef21" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef22" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef23" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis30" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis31" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis32" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis33" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef30" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef31" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef32" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef33" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis40" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis41" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis42" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis43" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef40" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef41" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef42" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef43" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis50" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis51" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis52" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis53" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef50" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef51" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef52" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef53" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis60" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis61" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis62" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis63" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef60" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef61" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef62" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef63" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis70" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis71" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis72" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis73" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef70" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef71" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef72" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef73" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis80" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis81" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis82" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis83" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef80" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef81" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef82" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef83" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorBlack" android:orientation="horizontal" android:gravity="center">
+
+        <TextView android:id="@+id/tvDis90" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis91" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis92" style="@style/cell_style" />
+        <TextView android:id="@+id/tvDis93" style="@style/cell_style" />
+
+        <TextView
+            style="@style/cell_style" android:layout_width="200dp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:background="@color/colorWhite"/>
+
+        <TextView android:id="@+id/tvRef90" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef91" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef92" style="@style/cell_style" />
+        <TextView android:id="@+id/tvRef93" style="@style/cell_style" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/colorOffWhite" android:orientation="horizontal" android:gravity="center">
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btnUserGuess0"
+            android:background="@color/colorLightBlue"
+            />
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btnUserGuess1"
+            android:background="@color/colorGreen"
+            />
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btnUserGuess2"
+            android:background="@color/colorRed"
+            />
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btnUserGuess3"
+            android:background="@color/colorBlue"
+            />
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btnUserGuess4"
+            android:background="@color/colorYellow"
+            />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            style="@style/button_style"
+            android:background="@mipmap/clear"
+            android:id="@+id/btnClearId"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layoutDirection="ltr">
+
+        <WebView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:id="@+id/wvVideo"
+            android:layout_gravity="center" android:layoutDirection="ltr">
+
+        </WebView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center" android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorYellow"
+        android:background="@color/colorLightBlue"
+        android:text="Drop Video"
+        android:id="@+id/btnDropVideoId"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_gravity="center" android:gravity="center">
+
+        <ToggleButton
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:id="@+id/tbModeId"
+            android:textOn="מתקדמים"
+            android:textOff="מתחילים"
+            android:padding="3dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:background="@color/colorBlue"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:layout_gravity="center" android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="הקלק למעבר ל"
+            android:padding="3dp"
+            android:textColor="@color/colorBlue"
+            android:textSize="15dp"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="1dp"
+            android:layout_gravity="center" android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

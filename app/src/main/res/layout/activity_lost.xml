@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LostActivity">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivlose"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@mipmap/loose"/>
+
+    <TextView
+        android:layout_gravity="center" android:gravity="center" android:textDirection="rtl" android:layoutDirection="ltr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#86594A"
+        android:textSize="20dp"
+        android:text="הפסדת"
+        />
+
+    <Button
+        android:layout_gravity="center" android:gravity="center" android:textDirection="rtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="למשחק נוסף"
+        android:id="@+id/btnLostAnotherGame"
+        />
+
+</LinearLayout>

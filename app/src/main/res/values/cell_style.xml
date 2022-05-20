@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cell_style" parent="AlertDialog.AppCompat.Light">
+        <item name="android:layout_width">13dp</item>
+        <item name="android:layout_height">13dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:colorBackground">@color/colorGrey</item>
+    </style>
+
+    <style name="button_style" parent="AlertDialog.AppCompat.Light">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+</resources>
